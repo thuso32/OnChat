@@ -11,8 +11,8 @@
       </template>
     </page-Header>
     <page-Body>
-      <h6>
-       First component of Profile
+      <h6 class="absolute-center">
+       Profile Page
       </h6>
     </page-Body>
     <page-Footer>

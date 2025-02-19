@@ -3,6 +3,7 @@
         class="text-blck"
         v-model="tab"
         no-caps
+        active-color="secondary"
         indicator-color="transparent"
       >
      <q-route-tab
@@ -11,7 +12,7 @@
           :ripple="false"
           :to="link.path"
           :name="link.name"
-          :icon="activeTab === link.name ? link.icon_filled : link.icon_outline"
+          :icon="link.icon_outline"
           :label="link.label" />
 
       </q-tabs>

@@ -6,7 +6,6 @@ import groups from 'src/pages/chat/groups.vue'
 import status from 'src/pages/chat/status.vue'
 import profile from 'src/pages/profile/profile.vue'
 import message from 'src/pages/chat/message.vue'
-import { useRoute, useRouter } from 'vue-router'
 
 
 const routes = [
